@@ -1,4 +1,4 @@
-package ionic.petmanager.Model;
+package ionic.petmanager.model;
 
 public class PetType {
     private String petName;
