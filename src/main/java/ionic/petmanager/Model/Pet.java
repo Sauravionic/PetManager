@@ -1,4 +1,4 @@
-package ionic.petmanager.model;
+package ionic.petmanager.Model;
 
 import java.time.LocalDate;
 

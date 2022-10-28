@@ -1,4 +1,4 @@
-package ionic.petmanager.model;
+package ionic.petmanager.Model;
 
 public class Vet extends Person{
 
