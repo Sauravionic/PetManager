@@ -40,6 +40,5 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/Sauravionic/PetManager.git</developerConnection>
-      <tag>PetManager-0.0.2</tag>
   </scm>
 </project>
