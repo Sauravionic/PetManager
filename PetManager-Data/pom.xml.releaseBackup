@@ -3,14 +3,15 @@
     <parent>
         <artifactId>PetManager</artifactId>
         <groupId>io.ionic</groupId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.3-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ionic</groupId>
-    <artifactId>PetManager-Web</artifactId>
+    <artifactId>PetManager-Data</artifactId>
 
     <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,25 +19,23 @@
 
     <dependencies>
         <dependency>
-            <artifactId>PetManager-Data</artifactId>
-            <groupId>ionic</groupId>
-            <version>0.0.4-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+<!--                <configuration>-->
+<!--                    <skip>true</skip>-->
+<!--                </configuration>-->
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

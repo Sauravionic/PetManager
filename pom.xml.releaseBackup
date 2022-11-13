@@ -14,7 +14,7 @@
     </parent>
     <groupId>io.ionic</groupId>
     <artifactId>PetManager</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>PetManager</name>
     <description>PetManager</description>
     <properties>

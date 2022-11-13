@@ -3,7 +3,7 @@
     <parent>
         <artifactId>PetManager</artifactId>
         <groupId>io.ionic</groupId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.3-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -20,7 +20,7 @@
         <dependency>
             <artifactId>PetManager-Data</artifactId>
             <groupId>ionic</groupId>
-            <version>0.0.4-SNAPSHOT</version>
+            <version>0.0.3-SNAPSHOT</version>
         </dependency>
 
         <dependency>
