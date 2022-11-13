@@ -14,7 +14,7 @@
     </parent>
     <groupId>io.ionic</groupId>
     <artifactId>PetManager</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>PetManager</name>
     <description>PetManager</description>
     <properties>
@@ -31,14 +31,16 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-release-plugin</artifactId>
+                    <version>3.0.0-M7</version>
                     <configuration>
                         <goals>install</goals>
+                        <autoVersionSubmodules>true</autoVersionSubmodules>
                     </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
     </build>
     <scm>
-        <developerConnection>scm:git:https://github.com/Sauravionic/PetManager.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:Sauravionic/PetManager.git</developerConnection>
   </scm>
 </project>
