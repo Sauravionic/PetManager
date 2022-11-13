@@ -41,7 +41,7 @@
         </pluginManagement>
     </build>
     <scm>
-        <developerConnection>scm:git:ssh://git@github.com:Sauravionic/PetManager.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:Sauravionic/PetManager.git</developerConnection>
     <tag>0.0.1</tag>
   </scm>
 </project>
