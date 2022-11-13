@@ -14,7 +14,7 @@
     </parent>
     <groupId>io.ionic</groupId>
     <artifactId>PetManager</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>PetManager</name>
     <description>PetManager</description>
     <properties>
@@ -42,5 +42,6 @@
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:Sauravionic/PetManager.git</developerConnection>
+    <tag>PetManager-0.0.1</tag>
   </scm>
 </project>
