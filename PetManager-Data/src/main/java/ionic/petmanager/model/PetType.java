@@ -1,6 +1,6 @@
 package ionic.petmanager.model;
 
-public class PetType {
+public class PetType extends BaseEntity{
     private String petName;
 
     public String getPetName() {
