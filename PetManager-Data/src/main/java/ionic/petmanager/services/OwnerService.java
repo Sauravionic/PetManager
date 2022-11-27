@@ -4,14 +4,7 @@ import ionic.petmanager.model.Owner;
 
 import java.util.Set;
 
-public interface OwnerService {
-
-    Owner findById(Long Id);
-
-    Owner save(Owner owner);
-
+public interface OwnerService extends CrudService<Owner,Long> {
     Owner findByLastName(String lastName);
-
-    Set<Owner> findAll();
 
 }
