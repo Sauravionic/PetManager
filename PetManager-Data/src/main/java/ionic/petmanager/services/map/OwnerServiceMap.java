@@ -3,9 +3,11 @@ package ionic.petmanager.services.map;
 import ionic.petmanager.model.Owner;
 import ionic.petmanager.services.CrudService;
 import ionic.petmanager.services.OwnerService;
+import org.springframework.stereotype.Service;
 
+import java.io.Serial;
 import java.util.Set;
-
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override

@@ -3,9 +3,10 @@ package ionic.petmanager.services.map;
 import ionic.petmanager.model.Vet;
 import ionic.petmanager.services.CrudService;
 import ionic.petmanager.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
