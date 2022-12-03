@@ -2,10 +2,11 @@ package ionic.petmanager.services.map;
 
 import ionic.petmanager.model.Pet;
 import ionic.petmanager.services.CrudService;
+import ionic.petmanager.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
